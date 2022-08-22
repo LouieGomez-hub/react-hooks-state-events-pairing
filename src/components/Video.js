@@ -20,7 +20,7 @@ function Video(props) {
             upvotes={props.videoData.upvotes}
             downvotes={props.videoData.downvotes}
         />
-        <CommentsContainer />
+        <CommentsContainer comments={props.videoData.comments} />
       </div>
     )
 }
