@@ -11,7 +11,7 @@ function CommentsContainer(props) {
     }
 
     return (
-        <div>
+        <div id="video-comments-container">
             <hr></hr>
             <h2>{props.comments.length} Comments</h2>
             {renderComments()}
